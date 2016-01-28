@@ -1,0 +1,6 @@
+[Unit]
+Description=MongoDB
+
+[Service]
+TimeoutStartSec=0
+ExecStart=/usr/bin/mongod
